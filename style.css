@@ -1,0 +1,296 @@
+/*============== GLOBAL ATTRIBUTES =============*/
+/*
+[class*=col-] {
+	border: solid 1px red;
+}
+.row {
+	border: solid 1px blue;
+}
+*/
+/*------------ FONTS -----------*/
+
+@font-face {
+	font-family: baskerville;
+	src: url(fonts/baskerville.ttc);
+}
+
+@font-face {
+	font-family: bahagia;
+	src: url(fonts/bahagia.ttf);
+}
+
+/*--------- OTHER ---------*/
+body {
+	text-align: center;
+	color: #404040;
+	font-family: baskerville;
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+h1 {
+	font-family: 'Lusitana', serif;
+	font-size: 18px;
+	color: #626262;
+	margin-bottom: 14px;
+
+}
+
+.main-image {
+	width: 100%;
+	max-width: 380px;
+	border: solid 6px white;
+	margin: auto;
+	
+}
+
+.image-box {
+	padding-left: 0;
+	padding-right: 0;
+	align-self: center;
+}
+
+.card-image-box {
+	padding: 6px;
+}
+
+.container-fluid {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #E5E5E5;
+}
+
+/*================= HEADER =================*/
+
+/*--------- LOGO ---------*/
+#logo-box {
+	padding: 2px 10px 10px 10px;
+}
+
+#logo {
+	height: 125px;
+}
+
+/*--------- NAV BAR ---------*/
+nav {
+	border-top: solid 2px #E5E5E5;
+	font-family: 'Lusitana', serif;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 1px;
+
+}
+
+.navbar {
+	padding: 0px;
+}
+
+li>a {
+	color: #6c6c6c;
+}
+
+li> a:hover {
+	color: #222222;
+	font-weight: 700;
+}
+
+a.active {
+	color: #222222;
+	font-weight: bold;
+}
+
+
+
+/*=============== FOOTER ==============*/
+
+footer {
+	width: 100%;
+	background: white;
+	font-family: 'Lusitana', serif;
+	font-size: 13px;
+	color: #7e7e7e;
+	padding: 15px;
+	line-height: 14px;
+
+}
+
+footer>address {
+	margin-bottom: 0px;
+}
+
+footer a {
+	color: #7e7e7e;
+	font-weight: bold;
+
+}
+
+#social-row {
+	margin: 8px;
+}
+
+.social-icon>img {
+	height: 32px;
+}
+
+#web-design-credit {
+	font-size: 13px;
+}
+
+/*=============== HOME PAGE ==============*/
+#main-index {
+	background-image: url("images/rainbow-bkgd.jpg");
+	background-size: cover;
+	height: 60vh;
+}
+
+#quote {
+	background-color: rgba(200, 200, 200, .48);
+	font-size: 28px;
+	line-height: 32px;
+	padding: 55px 25px 45px 25px;
+	border-radius: 2px;
+}
+
+#quote-author {
+	text-align: right;
+	padding-right: 9%;
+	padding-top: 3%;
+	font-family: bahagia;
+	font-size: 38px;
+	margin-bottom: 0;
+}
+
+#quote>p {
+	color: white;
+}
+
+.h-100 {
+align-items: center;
+}
+
+/*================ ABOUT PAGE ===============*/
+
+.text-l {
+	text-align: left;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+@media only screen and (max-width: 767px) {
+	.text-c {
+		text-align: center;
+		padding-top: 16px;
+	}
+}
+
+
+.text-mb-0 {
+	margin-bottom: 10px;
+}
+
+/*================ ABOUT PAGE ===============*/
+
+
+/*================ SERVICES PAGE ===============*/
+
+
+
+.card-services {
+	background-color: white;
+	margin-bottom: 10px;
+	width: auto;
+}
+
+/*================ SERVICES PAGE ===============*/
+.review-author {
+	text-align: center;
+	padding-top: 5px;
+	font-family: bahagia;
+	font-size: 26px;
+	margin-bottom: 0;
+}
+
+.card-reviews {
+	background-color: white;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+
+.row-padding {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+input {
+	display: block;
+	margin-bottom: 5px;
+}
+
+textarea {
+	width: 100%;
+	height: 16vh;
+	margin-bottom: 10px;
+}
+
+.form-control {
+	color: #404040;
+	font-family: baskerville;
+	font-size: 13px;
+	border: none;
+	border-radius: 2px;
+
+}
+
+form {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.form-group {
+	margin-bottom: 0;
+}
+
+/*.main-review {
+	min-height: 60vh;
+}
+*/
+.row-review {
+	height: 100%;
+}
+
+.button {
+	margin-bottom: 0;
+	padding: 6px 20px;
+	font-size: 14px;
+	color: #626262;
+	border-radius: 4px;
+	box-shadow: 1px 2px 3px #404040;
+	border: none;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+	.button {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+}
+
+footer a:hover {
+	color: #222222;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.services-h1 {
+	margin-top: 10px;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
